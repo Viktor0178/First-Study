@@ -4,7 +4,7 @@ Phone book
 <html lang="en">
   <head>
    <meta charset="utf-8">
-   <title>testing nahoi</title>
+   <title>test</title>
    <link rel ="stylesheet" href ="style.css">
   </head>
   <body>

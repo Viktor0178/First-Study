@@ -1,0 +1,180 @@
+body {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Montserrat;
+}
+
+p {
+	font-family: Nunito Sans;
+}
+
+hr {
+	border: 0;
+}
+
+/* NAVIGATION */
+
+.container__navigation {
+	width: 100%;
+	height: 670px;
+
+	background: url("../img/bgi_nav2.png") center no-repeat;
+	background-size: cover;
+}
+
+
+.navigation {
+	font-family: Montserrat;
+	font-size: 12px;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+
+}
+
+
+.nav__button, .nav__logo {
+	margin-top: 45px;
+}
+
+
+.button {
+	text-decoration: none;
+	color: #353535;
+	margin-right: 30px;
+}
+
+.button:hover {
+	color: #3bcfcb;
+	transition: .2s;
+}
+
+.text__header {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-end;
+	text-align: center;
+	font-family: Montserrat; 
+	
+
+	margin-top: 182px;
+	margin-right: 125px;
+}
+
+.text__unhead {
+	font-family: Nunito Sans;
+	color: #787878;
+}
+
+.btn {
+	text-decoration: none;
+	font-family: Montserrat;
+	font-size: 12px;
+	color: #353535;
+
+	border: 0px;
+	padding: 18px 49px;
+}
+
+.btn:hover {
+	color: #fff;
+	background-color: #10c9c3;
+	transition: .5s;
+}
+
+/* ABOUT */
+
+.container__about {
+	width: 100%;
+	height: 420px;
+
+	background-color: #fff;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+.text__about {
+	color: #787878;
+}
+
+/* SKILLS */
+
+.container__skills {
+	display: flex;
+
+
+	width: 100%;
+	height: 570px;
+}
+
+.skill1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+
+	width: 50%;
+	background-color: #f8f9f9;
+}
+
+
+.text__skill1 {
+	font-size: 12px;
+	font-family: Montserrat; 
+	font-weight: 700;
+}
+
+.line__skill1 {
+	height: 3px;
+	width: 500px;
+	background: linear-gradient(to right, #10c9c3 75%, #d8d8d8 25%);
+}
+
+.line__skill2 {
+	height: 3px;
+	width: 500px;
+	background: linear-gradient(to right, #10c9c3 90%, #d8d8d8 10%);
+}
+
+.line__skill3 {
+	height: 3px;
+	width: 500px;
+	background: linear-gradient(to right, #10c9c3 65%, #d8d8d8 35%);
+}
+
+
+.skill2 {
+	width: 50%;
+	background: url("../img/bgi_skills.jpg") center no-repeat;
+	background-size: cover;
+}
+
+/* NUMBERS */
+
+.container__numbers {
+	width: 100%;
+	height: 240px;
+
+	background-color: #10c9c3;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	font-family: Montserrat;
+	color: #fff;
+	
+}
+
+.text__numbers {
+	font-size: 12px;
+}
